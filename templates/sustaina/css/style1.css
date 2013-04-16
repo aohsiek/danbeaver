@@ -15,7 +15,7 @@ body a{color: #8b1e09;}
 #rt-logo {background: url(../images/logo.jpg) 0 0 no-repeat;width:255px;height:122px;}
 .rt-container {background: none;} 
 a:hover {color: #ababab;}
-#rt-footer, #rt-copyright {color: #666; text-align:center;}
+#rt-footer, #rt-copyright {color: #fff; text-align:left;}
 #gantry-viewswitcher {margin: 5px auto;position: relative;top:auto;right:0;}
 
 #rt-menu {background:url(../images/nav_repeat.png) top center repeat-x;z-index:2;margin-top:-22px;}
@@ -81,20 +81,20 @@ div.anythingSlider .anythingControls {
 
 body h1 {
 	font-size:24px;
-	color:rgb(128,0,0);
+	color:#8b1e09;
 	padding:5px 0 10px;
 	margin:0;
 }
 body h2 {
 	font-size:22px;
-	color:rgb(128,0,0);
+	color:#8b1e09;
 	padding:5px 0 10px;
 	font-weight:normal;
 	margin:0;
 }
 body h3 {
 	font-size:18px;
-	color:rgb(128,0,0);
+	color:#8b1e09;
 	padding:5px 0 10px;
 	margin:0;
 }
