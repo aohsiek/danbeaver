@@ -6,12 +6,12 @@
  */
 
 /* Core */
-body {color: #333;background:url(../images/bg.jpg) top center repeat;}
-#headwrap {background:url(../images/header_bg.jpg) top center repeat-x;}
-#headmain {background:url(../images/page_bg.jpg) top center no-repeat;width:960px;margin:0 auto;z-index:4;}
-#main {background:url(../images/page_repeat.jpg) top center repeat;width:960px;margin:0 auto;}
+body {color: #333;background:#232323;}
+#headwrap {background:none;}
+#headmain {background:#050608;width:960px;margin:0 auto;z-index:4;}
+#main {background:#1a1a1a url(../images/gradient_bg.png) top center repeat-x;width:960px;margin:0 auto;}
 #rt-header {background: none;}
-#rt-logo {background: url(../images/logo.png) 0 0 no-repeat;width:380px;height:145px;}
+#rt-logo {background: url(../images/logo.jpg) 0 0 no-repeat;width:255px;height:122px;}
 .rt-container {background: none;} 
 a:hover {color: #000;}
 #rt-footer, #rt-copyright {color: #666; text-align:center;}
