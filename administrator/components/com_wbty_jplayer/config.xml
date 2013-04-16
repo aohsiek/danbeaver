@@ -1,0 +1,15 @@
+<root>
+
+  <params>
+
+    <param type="text" name="playlist_title" label="Playlist Title" default="Wbty_jplayer" description="Playlist title for display with certain views" class="" size="" />
+
+	<param type="text" name="creator" label="Playlist Creator" default="" description="Name of creator of the playlist" class="" size="" />
+
+	<param type="text" name="playlist_info" label="Playlist Description" default="A Simple Playlist" description="Description of the playlist" class="" size="" />
+
+	<param name="playlist_image" type="imagelist" default="" label="Playlist Image" description="An Image for the playlist (displayed for select playlist views)" directory="images/stories" exclude="" stripext="" />
+
+  </params>
+
+</root>

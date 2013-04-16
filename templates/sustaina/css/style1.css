@@ -1,0 +1,99 @@
+/**
+ * @version   3.2.13 December 1, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Core */
+body {color: #333;background:url(../images/bg.jpg) top center repeat;}
+#headwrap {background:url(../images/header_bg.jpg) top center repeat-x;}
+#headmain {background:url(../images/page_bg.jpg) top center no-repeat;width:960px;margin:0 auto;z-index:4;}
+#main {background:url(../images/page_repeat.jpg) top center repeat;width:960px;margin:0 auto;}
+#rt-header {background: none;}
+#rt-logo {background: url(../images/logo.png) 0 0 no-repeat;width:380px;height:145px;}
+.rt-container {background: none;} 
+a:hover {color: #000;}
+#rt-footer, #rt-copyright {color: #666; text-align:center;}
+#gantry-viewswitcher {margin: 5px auto;position: relative;top:auto;right:0;}
+
+#rt-menu {background:url(../images/nav_repeat.png) top center repeat-x;z-index:2;margin-top:-22px;}
+#rt-menu .rt-container {background:url(../images/nav_bg.png) top center repeat-x;width:1028px;padding:25px 0 0 0;height:38px;display:block;z-index:6;}
+
+/* Navigation - Core */
+#rt-menu .menutop {clear: left; float: right; list-style: none; margin: 0; padding: 0; position: relative; right: 50%; text-align: center;}
+#rt-menu .menutop li {font-size: 1.03em; display: block; float: left; list-style: none; margin: -4px 0 -15px 0; padding:0; position: relative; left: 50%;}
+#rt-menu .menutop li a {display: block; margin: 0 0 0 1px; color: #fff; text-decoration: none;}
+#rt-menu .menutop li a:hover {}
+#rt-menu .menutop li a:active, #rt-menu .menutop li a:active:hover {color:#fff;}
+#rt-menu ul.menu li a, .menutop li.root > .item, .menu-type-splitmenu .menutop li .item {color: #fff; text-transform: uppercase; font-weight: bold;}
+.menutop li.parent.root > .item span, .menu-type-splitmenu .menutop li.parent .item span {background: url(../images/menus/menutop-daddy.png) 100% 50% no-repeat;}
+
+/* Navigation - Hovers */
+#rt-menu ul.menu li a:hover, .menutop li.root > .item:hover, .menutop li.active.root.f-mainparent-itemfocus > .item, .menutop li.root.f-mainparent-itemfocus > .item, .menu-type-splitmenu .menutop li:hover > .item {color: #fff;}
+
+/* Navigation - Active */
+#rt-menu ul.menu li.active a, #rt-menu ul.menu li.active a:hover, .menutop li.root.active > .item, .menutop li.root.active > .item:hover, .menu-type-splitmenu .menutop li.active .item {color: #fff;}
+
+/* Navigation - Dropdowns */
+.menutop .fusion-submenu-wrapper {background:rgb(131,121,83);} /* Fallback color for older browsers*/
+.menutop .fusion-submenu-wrapper {background-color:rgba(131,121,83,.8);}
+.menutop .fusion-submenu-wrapper.level3, .menutop .fusion-submenu-wrapper.level4, .menutop .fusion-submenu-wrapper.level5, .menutop .fusion-submenu-wrapper.level6 {background: #515151;}
+.menutop ul li > .item, .menutop .fusion-submenu-wrapper ul li > .item {color: #fff; padding:5px 15px;}
+.menutop ul li > .item span, .menutop .fusion-submenu-wrapper ul li > .item span {line-height:1.5em;}
+.menutop ul li > .item:hover, .menutop ul li.f-menuparent-itemfocus > .item {background: #6b6344; background: rgba(107,99,68,.8); color: #fff;}
+.menutop ul li > .daddy span {background: url(../images/menus/dropdown-daddy.png) 100% 50% no-repeat;}
+.menutop .fusion-grouped ol li > .item {background: url(../images/menus/menu-arrow.png) 5px 50% no-repeat;}
+
+/* Sidebar Navigation */
+#rt-sidebar-a {background: #206711; background: rgba(32,103,17,.6); margin: 23px 0 0 15px;}
+#rt-sidebar-a ul.menu > li {display: none; text-transform: uppercase; font-weight: bold; font-size: 1.05em; color: #fff;}
+#rt-sidebar-a ul.menu > li.active, #rt-sidebar-a ul.menu > li.active a {display: block; color: #fff;}
+#rt-sidebar-a ul.menu > li.active ul {padding: 0; margin: 0;}
+#rt-sidebar-a ul.menu > li.active li, #rt-sidebar-a ul.menu > li.active li.active {padding: 0 0 0 20px; color: #fff; line-height: 20px; font-size: 0.9em; font-weight: normal; list-style-type: none; background: url(../images/leaf_icon.png) left no-repeat;}
+
+#fsslider .panel .caption-bottom {
+	text-transform:uppercase;
+	font-size:1.1em;
+	font-weight:bold;
+	text-align:center;
+	background-color:#000;
+	color:#fff;
+}
+
+div.anythingSlider .anythingControls {
+	display:none !important;
+}
+
+#rt-header .rt-grid-3 .rt-block {
+	padding: 5px 10px;
+	background: rgb(131,121,83); /* Fallback color for older browsers*/
+	background-color:rgba(131,121,83,.6);
+	color:#fff;
+	margin-top:-5px;
+	border-radius:5px;
+}
+
+#rt-header .rt-grid-3 .rt-block h1 {
+	font-size:1.7em;
+}
+
+body h1 {
+	font-size:24px;
+	color:rgb(128,0,0);
+	padding:5px 0 10px;
+	margin:0;
+}
+body h2 {
+	font-size:22px;
+	color:rgb(128,0,0);
+	padding:5px 0 10px;
+	font-weight:normal;
+	margin:0;
+}
+body h3 {
+	font-size:18px;
+	color:rgb(128,0,0);
+	padding:5px 0 10px;
+	margin:0;
+}

@@ -1,0 +1,8 @@
+<root>
+  <config><fields name="params"><fieldset name="basic" label="basic">
+    <field type="text" name="playlist_title" label="Playlist Title" default="Fsslider" description="Playlist title for display with certain views" class="" size="" />
+	<field type="text" name="creator" label="Playlist Creator" default="" description="Name of creator of the playlist" class="" size="" />
+	<field type="text" name="playlist_info" label="Playlist Description" default="A Simple Playlist" description="Description of the playlist" class="" size="" />
+	<field name="playlist_image" type="imagelist" default="" label="Playlist Image" description="An Image for the playlist (displayed for select playlist views)" directory="images/stories" exclude="" stripext="" />
+  </fieldset></fields></config>
+</root>

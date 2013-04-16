@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="component" version="1.7" method="upgrade">
+
+  <name>wbty_jplayer</name>
+
+  <creationDate>Sep 2011</creationDate>
+
+  <author>David Fritsch</author>
+
+  <authorEmail>david@makethewebwork.us</authorEmail>
+
+  <authorUrl>http://makethewebwork.us.com</authorUrl>
+
+  <copyright>Copyright (c) 2011 - All Rights Reserved</copyright>
+
+  <license>GNU/GPL</license>
+
+  <version>0.2</version>
+
+  <description>Wbty_jplayer MP3 Player</description>
+
+  <install> <!-- Runs on install -->
+
+    	<sql>
+
+        	<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+
+  		</sql>
+
+    </install>
+
+    <uninstall> <!-- Runs on uninstall -->
+
+    	<sql>
+
+        	<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+
+  		</sql>
+
+   </uninstall>
+
+  <files folder="site">
+
+    <folder>controllers</folder>
+
+    <folder>language</folder>
+
+    <folder>models</folder>
+
+    <folder>views</folder>
+
+    <filename>controller.php</filename>
+
+    <filename>wbty_jplayer-playlist.swf</filename>
+
+    <filename>wbty_jplayer.php</filename>
+
+    <filename>index.html</filename>
+
+  </files>
+
+  <languages folder="site">
+
+    <language tag="en-GB">language/en-GB.com_wbty_jplayer.ini</language>
+
+    <language tag="index">language/index.html</language>
+
+  </languages>
+
+  <administration>
+
+    <menu task="default" img="components/com_wbty_jplayer/assets/images/wbty_jplayer_play.jpg" link="option=com_wbty_jplayer">Wbty_jplayer</menu>
+
+    
+
+	<files folder="administrator">
+
+	  <folder>assets</folder>
+
+      <folder>controllers</folder>
+
+      <folder>install</folder>
+
+      <folder>language</folder>
+
+      <folder>models</folder>
+
+	  <folder>sql</folder>
+
+      <folder>tables</folder>
+
+      <folder>uploads</folder>
+
+      <folder>views</folder>
+
+	  <filename>access.xml</filename>
+
+	  <filename>config.xml</filename>
+
+      <filename>controller.php</filename>
+
+      <filename>wbty_jplayer.php</filename>
+
+      <filename>index.html</filename>
+
+      <filename>playlist.xml</filename>
+
+	</files>
+
+    <languages folder="administrator">
+
+      <language tag="en-GB">language/en-GB.com_wbty_jplayer.ini</language>
+
+      <language tag="en-GB">language/en-GB.com_wbty_jplayer.menu.ini</language>
+
+      <language tag="index">language/index.html</language>
+
+    </languages>
+
+  </administration>
+
+  
+
+  <config><fields name="params"><fieldset name="basic">
+
+    <field type="text" name="playlist_title" label="Playlist Title" default="Wbty_jplayer" description="Playlist title for display with certain views" class="" size="" />
+
+	<field type="text" name="creator" label="Playlist Creator" default="" description="Name of creator of the playlist" class="" size="" />
+
+	<field type="text" name="playlist_info" label="Playlist Description" default="A Simple Playlist" description="Description of the playlist" class="" size="" />
+
+	<field name="playlist_image" type="imagelist" default="" label="Playlist Image" description="An Image for the playlist (displayed for select playlist views)" directory="images/stories" exclude="" stripext="" />
+
+  </fieldset></fields>
+
+  <params>
+
+    <param type="text" name="playlist_title" label="Playlist Title" default="Wbty_jplayer" description="Playlist title for display with certain views" class="" size="" />
+
+	<param type="text" name="creator" label="Playlist Creator" default="" description="Name of creator of the playlist" class="" size="" />
+
+	<param type="text" name="playlist_info" label="Playlist Description" default="A Simple Playlist" description="Description of the playlist" class="" size="" />
+
+	<param name="playlist_image" type="imagelist" default="" label="Playlist Image" description="An Image for the playlist (displayed for select playlist views)" directory="images/stories" exclude="" stripext="" />
+
+  </params></config>
+
+  	<installfile>install.wbty_jplayer.php</installfile>
+
+	<uninstallfile>uninstall.wbty_jplayer.php</uninstallfile>
+
+	<scriptfile>script.wbty_jplayer.php</scriptfile>
+
+</extension>

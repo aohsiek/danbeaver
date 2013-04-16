@@ -1,0 +1,1 @@
+[16-Apr-2013 12:03:18] PHP Warning:  file_get_contents(/home/makeweb/public_html/dev/danbeaver/administrator/components/com_wbty_jplayer/install.sql) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/makeweb/public_html/dev/danbeaver/tmp/install_516d8455ec4d4/script.wbty_jplayer.php on line 35

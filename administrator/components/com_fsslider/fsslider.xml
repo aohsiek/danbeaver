@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD component 1.0//EN" "http://joomla.org/xml/dtd/1.5/component-install.dtd">
+<extension type="component" version="1.7" client="site" method="upgrade">
+  <name>FS Slider</name>
+  <creationDate>October 21, 2011</creationDate>
+  <author>David Fritsch</author>
+  <authorEmail>david@makethewebwork.us</authorEmail>
+  <authorUrl>makethewebwork.us</authorUrl>
+  <copyright>Copyright (c) 2011 - All Rights Reserved</copyright>
+  <license>GNU/GPL</license>
+  <version>0.5.0</version>
+  <description><![CDATA[<p>Create image sliders with ease using the component interface. Then add any image set to any module position with the included module. Component Interface allows you to easily build links and multiple sliders for the same site.</p>]]></description>
+	<install> <!-- Runs on install -->
+    	<sql>
+        	<file driver="mysql" charset="utf8">sql/install.sql</file>
+  		</sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+    	<sql>
+        	<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+  		</sql>
+   </uninstall>
+  <files folder="site">
+    <folder>views</folder>
+    <filename>controller.php</filename>
+    <filename>fsslider.php</filename>
+    <filename>index.html</filename>
+  </files>
+  
+  <files folder="admin/sql">
+	<filename>install.sql</filename>
+	<filename>uninstall.sql</filename>
+	</files>
+  
+  <administration>
+    <menu task="default" img="components/com_fsslider/assets/images/fsslider_play.jpg" link="option=com_fsslider">fsslider</menu>
+    <files folder="admin">
+      <folder>assets</folder>
+      <folder>controllers</folder>
+      <folder>install</folder>
+      <folder>language</folder>
+      <folder>models</folder>
+	  <folder>sql</folder>
+      <folder>tables</folder>
+      <folder>uploads</folder>
+      <folder>views</folder>
+	  <filename>config.xml</filename>
+      <filename>controller.php</filename>
+      <filename>fsslider.php</filename>
+      <filename>index.html</filename>
+    </files>
+    <languages folder="admin/language">
+      <language tag="en-GB">en-GB.com_fsslider.ini</language>
+      <language tag="en-GB">en-GB.com_fsslider.menu.ini</language>
+      <language tag="index">index.html</language>
+    </languages>
+  </administration>
+  
+  <installfile>install.fsslider.php</installfile>
+  <uninstallfile>uninstall.fsslider.php</uninstallfile>
+  <scriptfile>script.fsslider.php</scriptfile>
+</extension>
