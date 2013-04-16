@@ -80,22 +80,24 @@ div.anythingSlider .anythingControls {
 }
 
 body h1 {
-	font-size:24px;
+	font-size:2.0em;
 	color:#8b1e09;
 	padding:5px 0 10px;
+	font-weight:700;
 	margin:0;
 }
 body h2 {
-	font-size:22px;
+	font-size:1.8em;
 	color:#8b1e09;
 	padding:5px 0 10px;
-	font-weight:normal;
+	font-weight:700;
 	margin:0;
 }
 body h3 {
-	font-size:18px;
+	font-size:1.5em;
 	color:#8b1e09;
 	padding:5px 0 10px;
+	font-weight:600;
 	margin:0;
 }
 body p {
