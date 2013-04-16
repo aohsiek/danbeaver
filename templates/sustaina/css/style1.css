@@ -6,7 +6,9 @@
  */
 
 /* Core */
-body {color: #333;background:#232323;}
+body {color: #fff;background:#232323;}
+body a{color: #8b1e09;}
+a:hover {color: #ababab;}
 #headwrap {background:none;}
 #headmain {background:#050608;width:960px;margin:0 auto;z-index:4;}
 #main {background:#1a1a1a url(../images/gradient_bg.png) top center repeat-x;width:960px;margin:0 auto;}
