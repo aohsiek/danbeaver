@@ -22,6 +22,7 @@ require_once('lib/gantry/gantry.php');
             $gantry->displayHead();
             $gantry->addStyles(array('template.css','joomla.css','style.css'));
         ?>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
     </head>
     <body <?php echo $gantry->displayBodyTag(); ?>>
     <div id="headwrap">
