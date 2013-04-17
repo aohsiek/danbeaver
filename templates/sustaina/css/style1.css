@@ -15,7 +15,7 @@ body a{color: #8b1e09;}
 #rt-logo {background: url(../images/logo.jpg) 0 0 no-repeat;width:255px;height:122px;}
 .rt-container {background: none;} 
 a:hover {color: #ababab;}
-#rt-footer, #rt-copyright {color: #fff; text-align:left;}
+#rt-footer, #rt-copyright {color: #fff;}
 #gantry-viewswitcher {margin: 5px auto;position: relative;top:auto;right:0;}
 
 #rt-menu {background:url(../images/nav_repeat.png) top center repeat-x;z-index:2;margin-top:-22px;}
@@ -106,9 +106,15 @@ body p {
 	letter-spacing: 1px;
 }
 
-#rt-copyright .rt-grid-12 {
-	margin: 0;
+#rt-copyright .rt-alpha {
+	margin-left: 0;
+}
+#rt-copyright .rt-omega {
+	margin-right: 0;
 }
 #rt-copyright .rt-block {
 	padding: 15px 0;
+	font-size: 1.2em;
+	font-weight: 400;
+	letter-spacing: 0px;
 }
