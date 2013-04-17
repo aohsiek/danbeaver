@@ -106,15 +106,10 @@ body p {
 	letter-spacing: 1px;
 }
 
-#rt-copyright .rt-alpha {
-	margin-left: 0;
-}
-#rt-copyright .rt-omega {
-	margin-right: 0;
+#rt-copyright .rt-grid-12 {
+	margin: 0;
+	width: 960px;
 }
 #rt-copyright .rt-block {
 	padding: 15px 0;
-	font-size: 1.2em;
-	font-weight: 400;
-	letter-spacing: 0px;
 }
