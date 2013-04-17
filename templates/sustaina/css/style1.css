@@ -99,6 +99,11 @@ body h3 {
 	margin:0;
 }
 
+#rt-maintop .rt-block {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
 #rt-copyright .rt-grid-12 {
 	margin: 0;
 	width: 960px;
