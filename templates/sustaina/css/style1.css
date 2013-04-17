@@ -79,26 +79,23 @@ div.anythingSlider .anythingControls {
 	font-size:1.7em;
 }
 
-body h1, body h1 .title {
+body h1 {
 	font-size:2.0em;
 	color:#8b1e09;
 	padding:5px 0 10px;
 	margin:0;
 }
-body h2, body h2 .title {
-	font-size:1.8em;
+body h2 {
+	font-size:1.7em;
 	color:#8b1e09;
 	padding:5px 0 10px;
 	margin:0;
 }
-body h3, body h3 .title{
-	font-size:1.5em;
+body h3 {
+	font-size:1.4em;
 	color:#8b1e09;
 	padding:5px 0 10px;
 	margin:0;
-}
-body p {
-	font-size: 1.3em;
 }
 
 #rt-copyright .rt-grid-12 {
