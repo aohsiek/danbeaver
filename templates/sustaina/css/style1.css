@@ -83,26 +83,24 @@ body h1 {
 	font-size:2.0em;
 	color:#8b1e09;
 	padding:5px 0 10px;
-	font-weight:700;
+	font-weight:600;
 	margin:0;
 }
 body h2 {
 	font-size:1.8em;
 	color:#8b1e09;
 	padding:5px 0 10px;
-	font-weight:700;
+	font-weight:600;
 	margin:0;
 }
 body h3 {
 	font-size:1.5em;
 	color:#8b1e09;
 	padding:5px 0 10px;
-	font-weight:600;
 	margin:0;
 }
 body p {
 	font-size: 1.3em;
-	font-weight: 600;
 	letter-spacing: 1px;
 }
 
