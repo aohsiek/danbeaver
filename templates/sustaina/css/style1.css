@@ -8,6 +8,7 @@
 /* Core */
 body {color: #fff;background:#232323;font-family:'Trebuchet',sans-serif;}
 body a{color: #8b1e09;}
+body a .blue{color: #50c9f3;}
 #headwrap {background:none;}
 #headmain {background:#050608;width:960px;margin:0 auto;z-index:4;}
 #main {background:#1a1a1a url(../images/gradient_bg.png) top center repeat-x;width:960px;margin:0 auto;}
