@@ -6,7 +6,7 @@
  */
 
 /* Core */
-body {color: #fff;background:#232323;font-family:'Trebuchet',sans-serif;}
+body {color: #fff;background:#232323 url(../images/master_bg.jpg) center repeat-y;font-family:'Trebuchet',sans-serif;}
 body a{color: #8b1e09;}
 #headwrap {background:none;}
 #headmain {background:#050608;width:960px;margin:0 auto;z-index:4;}
@@ -16,6 +16,7 @@ body a{color: #8b1e09;}
 .rt-container {background: none;} 
 a:hover {color: #ababab;}
 #rt-footer, #rt-copyright {color: #fff;}
+#rt-copyright {background: #232323 url(../images/copyright_bg.jpg) top center no-repeat;}
 #gantry-viewswitcher {margin: 5px auto;position: relative;top:auto;right:0;}
 
 #rt-menu {background:url(../images/nav_repeat.png) top center repeat-x;z-index:2;margin-top:-22px;}
