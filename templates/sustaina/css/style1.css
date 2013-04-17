@@ -8,7 +8,6 @@
 /* Core */
 body {color: #fff;background:#232323;font-family:'Trebuchet',sans-serif;}
 body a{color: #8b1e09;}
-body a .blue{color: #50c9f3;}
 #headwrap {background:none;}
 #headmain {background:#050608;width:960px;margin:0 auto;z-index:4;}
 #main {background:#1a1a1a url(../images/gradient_bg.png) top center repeat-x;width:960px;margin:0 auto;}
@@ -18,6 +17,9 @@ body a .blue{color: #50c9f3;}
 a:hover {color: #ababab;}
 #rt-footer, #rt-copyright {color: #fff;}
 #gantry-viewswitcher {margin: 5px auto;position: relative;top:auto;right:0;}
+
+/*Get around the template color but keep the hover color.*/
+body a .customcolor:hover{color: #ababab;}
 
 #rt-menu {background:url(../images/nav_repeat.png) top center repeat-x;z-index:2;margin-top:-22px;}
 #rt-menu .rt-container {background:url(../images/nav_bg.png) top center repeat-x;width:1028px;padding:25px 0 0 0;height:38px;display:block;z-index:6;}
